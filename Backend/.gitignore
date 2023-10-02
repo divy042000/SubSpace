@@ -1,0 +1,25 @@
+# Ignore Node.js modules and their dependencies
+node_modules/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore IDE and code editor settings
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Ignore compiled code and build artifacts
+/build/
+/dist/
+*.exe
+*.dll
+
+# Ignore sensitive configuration files with secrets
+config/secrets.json
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
